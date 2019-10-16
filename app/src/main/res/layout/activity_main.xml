@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/img" />
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    app:myBackgroundColor="#ff6677"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="left" />
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    app:myBackgroundColor="#ff6677"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="right" />
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    app:myBackgroundColor="#ff6677"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="left_bottom" />
+
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    app:myBackgroundColor="#ff6677"
+                    app:myPaddingTop="10dp"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="right_bottom" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/img" />
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    app:myBackgroundColor="#ff6677"
+                    app:mySlantedHeight="30dp"
+                    app:myText="打折扣"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="left_bar" />
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    app:myBackgroundColor="#667fff"
+                    app:mySlantedHeight="30dp"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="right_bar" />
+
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    app:myBackgroundColor="#66ffff"
+                    app:mySlantedHeight="30dp"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="left_bottom_bar" />
+
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    app:myBackgroundColor="#ffe066"
+                    app:mySlantedHeight="30dp"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="right_bottom_bar" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/img" />
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:id="@+id/left_test"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    app:myBackgroundColor="#ff6677"
+                    app:tagModel="left_bar" />
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    app:myBackgroundColor="#667fff"
+                    app:mySlantedHeight="30dp"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="right_bar" />
+
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    app:myBackgroundColor="#66ffff"
+                    app:mySlantedHeight="30dp"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="left_bottom_bar" />
+
+
+                <com.example.mylibrary.mySlantedTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    app:myBackgroundColor="#ffe066"
+                    app:mySlantedHeight="30dp"
+                    app:myText="热卖中"
+                    app:myTextColor="#ffffff"
+                    app:myTextSize="16sp"
+                    app:tagModel="right_bottom_bar" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

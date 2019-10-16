@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlantedTextView">
+        <attr name="slantedTextSize" format="dimension" />
+        <attr name="slantedBackgroundColor" format="color" />
+        <attr name="slantedText" format="string" />
+        <attr name="slantedTextColor" format="color" />
+        <attr name="slantedLength" format="dimension" />
+        <attr name="slantedMode" format="enum">
+            <enum name="left" value="0"></enum>
+            <enum name="right" value="1"></enum>
+            <enum name="left_bottom" value="2"></enum>
+            <enum name="right_bottom" value="3"></enum>
+            <enum name="left_triangle" value="4"></enum>
+            <enum name="right_triangle" value="5"></enum>
+            <enum name="left_bottom_triangle" value="6"></enum>
+            <enum name="right_bottom_triangle" value="7"></enum>
+        </attr>
+    </declare-styleable>
+
+    <!--提供布局调用属性（背景颜色）-->
+    <declare-styleable name="mySlantedTextView">
+        <attr name="myBackgroundColor" format="color" />
+        <attr name="tagModel" format="enum">
+            <enum name="left" value="0"></enum>
+            <enum name="right" value="1"></enum>
+            <enum name="left_bottom" value="2"></enum>
+            <enum name="right_bottom" value="3"></enum>
+            <enum name="left_bar" value="4" />
+            <enum name="right_bar" value="5" />
+            <enum name="left_bottom_bar" value="6" />
+            <enum name="right_bottom_bar" value="7" />
+            <enum name="left_angle" value="8" />
+        </attr>
+        <attr name="myTextSize" format="dimension" />
+        <attr name="myTextColor" format="color" />
+        <attr name="myText" format="string" />
+        <attr name="myPaddingTop" format="dimension" />
+        <attr name="mySlantedHeight" format="dimension" />
+
+
+    </declare-styleable>
+</resources>
