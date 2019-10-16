@@ -10,7 +10,7 @@
 | myTextSize | 字体大小 |
 | myTextColor | 字体颜色 |
 
-[我的博客](https://blog.csdn.net/qiaoshi96_bk/article/details/102579957 "悬停显示")
+[详情原理见博客](https://blog.csdn.net/qiaoshi96_bk/article/details/102579957 "悬停显示")
 
 #效果图
 ![我的博客](https://img-blog.csdnimg.cn/20191016104815930.jpg)
